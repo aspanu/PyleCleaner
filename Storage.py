@@ -18,7 +18,7 @@ class Storage:
     def contains(self, uid):
         return uid in self.map
 
-    def numberOfUids(self, uid):
+    def number_of_uids(self, uid):
         return len(self.map.get(uid))
 
     def number_of_unique_uids(self):
